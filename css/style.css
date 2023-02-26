@@ -1,0 +1,117 @@
+/* common css starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* common css ends */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* nav starts */
+nav{
+    background-color: #02918b;
+}
+
+nav .logo{
+    width: 40%;
+}
+
+nav .menu{
+    width: 60%;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{ 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.align-center{
+    align-items: center;
+}
+/* nav ends */
+
+
+/* banner starts */
+#banner{
+   background-image: url(../image/MYFOLIO.jpg);
+   height: 725px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgba(0, 0, 0, 0.407);
+   background-blend-mode: multiply;
+   
+   
+}
+
+#banner .container{
+     height: 100%;
+     margin: auto;
+     
+}
+
+#banner .row{
+    height: 100%;
+  
+}
+
+#banner .banner-content{
+    width: 100%;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+#banner .banner-content h4{
+   font-size: 28px;
+   font-weight: 400;
+   
+}
+
+#banner .banner-content h1{
+    font-size: 64px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+
+#banner .banner-content p{
+    font-size: 17px;
+    color: white;
+}
+
